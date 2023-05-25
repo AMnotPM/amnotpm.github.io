@@ -31,7 +31,7 @@ import { Image } from "@astrojs/image/components";
       <li><a id="home" href="/">Home</a></li>
       <li><a id="projects" href="/projects">Projects</a></li>
       <li><a id="services" href="/services">Services</a></li>
-      <li><a id="store" href="/store">Store</a></li>
+     <!-- <li><a id="store" href="/store">Store</a></li> --> 
       <li><a id="blog" href="/blog/">Blog</a></li>
       <li><a id="cv" href="/cv">CV</a></li>
       <li><a href="mailto:amiguel.091@gmail.com">Contact</a></li>
@@ -141,7 +141,7 @@ import { Image } from "@astrojs/image/components";
   const homeLink = document.getElementById("home");
   const projectsLink = document.getElementById("projects");
   const servicesLink = document.getElementById("services");
-  const storeLink = document.getElementById("store");
+ // const storeLink = document.getElementById("store"); // store disabled
   const blogLink = document.getElementById("blog");
   const cvLink = document.getElementById("cv");
 
@@ -149,7 +149,8 @@ import { Image } from "@astrojs/image/components";
 
   const url = window.location.href;
 
-  const pages = [projectsLink, servicesLink, storeLink, blogLink, cvLink];
+  // const pages = [projectsLink, servicesLink, storeLink, blogLink, cvLink]; //
+  const pages = [projectsLink, servicesLink, blogLink, cvLink];
 
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
