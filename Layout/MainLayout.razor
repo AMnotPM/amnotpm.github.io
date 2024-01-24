@@ -1,0 +1,55 @@
+@inherits LayoutComponentBase
+<RadzenComponents/>
+
+<RadzenLayout style="grid-template-areas: 'rz-sidebar rz-header' 'rz-sidebar rz-body';">
+    <RadzenHeader>
+        <RadzenRow JustifyContent="JustifyContent.Start" AlignItems="AlignItems.Center" Gap="0">
+            <RadzenColumn Size="5">
+                <RadzenSidebarToggle Click="@SidebarToggleClick"></RadzenSidebarToggle>
+            </RadzenColumn>
+            <RadzenColumn Size="7">
+                <RadzenStack AlignItems="AlignItems.Center" Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.End">
+                    <a href="https://t.me/AMnotPM" target="_blank" title="Telegram">
+                        <RadzenImage Path="images\telegram.png" Style="width: 24px; height: 24px; margin: 5px"></RadzenImage>
+                    </a>
+                    <a href="https://twitter.com/MiguelLafaurie" target="_blank" title="Twitter">
+                        <RadzenImage Path="images\twitter.png" Style="width: 24px; height: 24px; margin: 5px"></RadzenImage>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amnotpm" target="_blank" title="LinkedIn">
+                        <RadzenImage Path="images\linkedin.png" Style="width: 24px; height: 24px; margin: 5px"></RadzenImage>
+                    </a>
+                    <a href="https://amnotpm.github.io/rss.xml" target="_blank" title="Feed">
+                        <RadzenImage Path="images\newsfeed.png" Style="width: 24px; height: 24px; margin: 5px; margin-right: 15px"></RadzenImage>
+                    </a>
+                </RadzenStack>
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenHeader>
+    <RadzenBody Expanded="@sidebarExpanded">
+        <RadzenRow class="rz-mx-auto rz-px-4 rz-pt-2 rz-pt-md-4 rz-pt-lg-6 rz-pt-xl-12 rz-pb-2 rz-pb-lg-12" Style="max-width: 1440px;">
+            <RadzenColumn Size="12">
+                @Body
+            </RadzenColumn>
+        </RadzenRow>
+    </RadzenBody>
+    <RadzenSidebar Expanded="@sidebarExpanded" style="z-index: 2">
+        <RadzenStack AlignItems="Radzen.AlignItems.Center" class="rz-py-4 rz-py-lg-6" Style="padding: var(--rz-panel-menu-item-padding); border-bottom: var(--rz-panel-menu-item-border);">
+            <RadzenImage Path="images\avatar-rou.png" style="width: 96px; height: 96px;"></RadzenImage>
+            <RadzenText Text="Personal Web" TextStyle="Radzen.Blazor.TextStyle.Subtitle1" class="rz-mb-0" style="color: var(--rz-sidebar-color);"/>
+        </RadzenStack>
+        <RadzenPanelMenu Style="text-align: center; text-transform: capitalize; font-size: 16px">
+            <RadzenPanelMenuItem Text="Home" Path=""/>
+            <RadzenPanelMenuItem Text="Curriculum " Path="currículum-"/>
+        </RadzenPanelMenu>
+        <RadzenSplitter Style="height: 358px"></RadzenSplitter>
+        <RadzenStack AlignItems="Radzen.AlignItems.Center" Gap="0" class="rz-py-4 rz-py-lg-6" Style="padding: var(--rz-panel-menu-item-padding)">
+            <RadzenText Text="Personal Web v1.0.0" TextStyle="Radzen.Blazor.TextStyle.Caption" style="color: var(--rz-text-disabled-color)" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center"/>
+            <RadzenText Text="Copyright Ⓒ 2024" TextStyle="Radzen.Blazor.TextStyle.Caption" class="rz-mb-0" style="color: var(--rz-text-disabled-color);" TagName="Radzen.Blazor.TagName.P" TextAlign="Radzen.TextAlign.Center"/>
+            <div>
+            <a href="https://github.com/amnotpm" target="_blank" title="AMnotPM at Github">
+                <RadzenImage Path="images\icons8-github-64.png" Style="width: 24px; height: 24px; margin: 5px; float: left"></RadzenImage>
+            </a>
+            </div>
+        </RadzenStack>
+    </RadzenSidebar>
+</RadzenLayout>
