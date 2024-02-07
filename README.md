@@ -4,7 +4,7 @@ Template for a minimal CV with dark mode support. This CV is fully customizable 
 
 <img src="./resources/light-mode-cv.png" height="500px" style="margin-right: 32px" />
 <img src="./resources/dark-mode-cv.png" height="500px" />
-```
+
 ## Source
 
 Thx to https://github.com/alexanderhodes/astro-minimal-cv for the original template 👍
