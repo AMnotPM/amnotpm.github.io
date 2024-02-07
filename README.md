@@ -4,23 +4,10 @@ Template for a minimal CV with dark mode support. This CV is fully customizable 
 
 <img src="./resources/light-mode-cv.png" height="500px" style="margin-right: 32px" />
 <img src="./resources/dark-mode-cv.png" height="500px" />
-
-## Commands
-
-This application is built with `yarn`, but you're free to use any package management you want to.
-
-```bash
-# install all dependencies
-$ yarn
-# start dev server
-$ yarn dev
-# builds the app and publishes it into `dist` folder
-$ yarn build
-# preview the app that was built
-$ yarn preview
-# run astro commands
-$ yarn astro ...
 ```
+## Source
+
+Thx to https://github.com/alexanderhodes/astro-minimal-cv for the original template 👍
 
 ## Project structure
 
