@@ -1,0 +1,172 @@
+---
+import { Icon } from "astro-icon";
+import RowEntry from "../components/RowEntry.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import SocialIcon from "../components/SocialIcon.astro";
+
+import { SITE_TITLE } from "../config";
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{SITE_TITLE}</title>
+  </head>
+  <body
+    class="dark:bg-black subpixel-antialiased text-lg md:text-xl leading-normal text-justify md:text-left"
+  >
+    <button id="dark-mode-toggle" class="mb-2 mt-2">
+      <Icon name="tabler:sun" class="w-6 h-6 dark:text-white" />
+    </button>
+
+    <div class="text-center mb-3">
+      <h1 class="text-2xl font-bold mb-1 dark:text-white">Miguel Gutierrez</h1>
+      <h2 class="text-base dark:text-white">
+        Junior Developer in ASP.NET Core
+      </h2>
+      <h3 class="text-base dark:text-white">
+        <a
+          href="https://t.me/AMnotPM"
+          class="hover:text-red-500 dark:text-white dark:hover:text-red-500"
+          >@AMnotPM
+        </a>
+        |
+        <a
+          href="mailto:handsomejack91@duck.com"
+          class="hover:text-red-500 dark:text-white dark:hover:text-red-500"
+          >handsomejack91@duck.com</a
+        >
+      </h3>
+    </div>
+
+    <div id="education" class="mb-6">
+      <SectionTitle title="Education" />
+
+      <RowEntry
+        description="My first steps in informatics earning a technical degree at it."
+        name="9/2006 - 6/2009"
+        title="IT Technician"
+        subTitle="Havana, Cuba"
+      />
+
+      <RowEntry
+        description="A lifelong learning in the information and communication fields in the context of the information society, at the Faculty of Communication of the University of Havana"
+        name="9/2016 - 10/2022"
+        title="Graduate in Information Sciences"
+        subTitle="Havana, Cuba"
+      />
+    </div>
+
+    <div id="work" class="mb-6">
+      <SectionTitle title="Working experience" />
+
+      <RowEntry
+        description="Developed a web for ordering air conditioners with WiX CMS."
+        name="10/2023 - 12/2023"
+        title="Air Conditioners web page"
+      />
+    </div>
+
+    <div id="programming-experience" class="mb-6">
+      <SectionTitle title="Programming experience" />
+
+      <RowEntry
+        description="Now I'm developing web apps and services with ASP.NET Core, minimal and web APIs, Blazor and Razor Pages, integrating a database with Entity Framework Core and SQL server."
+        name="11/2023 - today"
+        title="Backend developer (Working student)"
+        subTitle="Havana"
+      />
+
+      <RowEntry
+        description="I've extended my knowledge in backend development by developing single page applications with .NET MVC and React."
+        name="5/2023 - 10/2023"
+        title="Backend developer (Working student)"
+        subTitle="Havana"
+      />
+
+      <RowEntry
+        description="Some first steps as developer using some basic HTML, CSS and JavaScript. I've developed some smaller applications."
+        name="1/2023 - 04/2023"
+        title="Backend developer (Working student)"
+        subTitle="Havana"
+      />
+    </div>
+
+    <div id="skills" class="mb-6">
+      <SectionTitle title="Skills and interests" />
+
+      <RowEntry description="Spanish, English" name="Languages" />
+
+      <RowEntry
+        description="Microsoft Visual Studio .NET, SQL Server Management Studio, IIS and Web Services, Git and GitHub. Agile methodologies like Scrum and Kanban."
+        name="Technologies"
+      />
+
+      <RowEntry
+        description="Communication, Team Player, Flexibility and adaptability, Good interpersonal skills"
+        name="Soft Skills"
+      />
+
+      <RowEntry
+        description="I love keeping up with the latest technology trends and always looking to learn new skills and techniques to improve my work. In my free time, I enjoy creating personal projects and experimenting with new technologies. If you are interested in working together or learn more about my experience and skills, please contact me."
+        name="Interests"
+      />
+    </div>
+
+    <div id="social" class="justify-center flex flex-row mb-2">
+      <div class="mr-4">
+        <SocialIcon
+          icon="fa-brands:github"
+          label="github"
+          url="https://www.github.com/amnotpm/"
+        />
+      </div>
+      <div class="mr-4">
+        <SocialIcon
+          icon="fa-brands:linkedin"
+          label="linkedin"
+          url="https://www.linkedin.com/in/amnotpm"
+        />
+      </div>
+      <div class="mr-4">
+        <SocialIcon
+          icon="fa-brands:twitter"
+          label="dev"
+          url="https://twitter.com/MiguelLafaurie"
+        />
+      </div>
+    </div>
+
+    <script is:inline>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+
+      window.onload = function () {
+        const element = document.getElementById("dark-mode-toggle");
+
+        if (element) {
+          element.addEventListener("click", () => {
+            document.documentElement.classList.toggle("dark");
+
+            localStorage.theme = document.documentElement.classList.contains(
+              "dark"
+            )
+              ? "dark"
+              : "light";
+          });
+        }
+      };
+    </script>
+  </body>
+</html>
