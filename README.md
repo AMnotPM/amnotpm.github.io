@@ -1,4 +1,4 @@
-# DevsCard
+# [DevsCard](https://github.com/KonradSzwarc/devscard)
 
 A fully customizable template to create your online (and paper) resume without writing a single line of code.
 
@@ -16,11 +16,6 @@ A fully customizable template to create your online (and paper) resume without w
 - **🛠 Data helpers** — use built-in helpers to define your skills/socials once and reuse them across the configuration.
 - **🔀 Data transformers** — utilize type-safe data transformers to create multiple variants of your resume without duplicating your data.
 
-## Documentation
-
-To learn how to set up your resume, go to:
-
-[https://devscard.gitbook.io/docs](https://devscard.gitbook.io/docs/setup-guide)
 
 ## Example
 
@@ -30,4 +25,4 @@ To see an example CV, visit the link below:
 
 ## Source
 
-Thx to https://github.com/KonradSzwarc/devscard for the original template 👍
+Thx to [KonradSzwarc](https://github.com/KonradSzwarc) for the amazing template 👍
