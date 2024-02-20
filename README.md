@@ -27,3 +27,7 @@ To learn how to set up your resume, go to:
 To see an example CV, visit the link below:
 
 [https://devscard.netlify.app](https://devscard.netlify.app/)
+
+## Source
+
+Thx to https://github.com/KonradSzwarc/devscard for the original template 👍
