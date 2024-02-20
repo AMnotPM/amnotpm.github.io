@@ -164,3 +164,22 @@ export const vue = createSkillFactory({
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });
+
+/// mine
+
+export const csharp = createSkillFactory({
+  name: 'C Sharp (C#)',
+  icon: 'simple-icons:csharp',
+  iconColor: '#684D95',
+  url: 'https://docs.microsoft.com/en-us/dotnet/csharp/index',
+});
+
+export const javascript = createSkillFactory({
+  name: 'JavaScript',
+  icon: 'simple-icons:javascript',
+  iconColor: '#E7A42B',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+});
+
+
+
