@@ -70,7 +70,6 @@ const skillsSectionData = {
           description:
             'Desc.',
         }),
-        postman({ level: 2 }),
         sqlServer({
           level: 2,
           description:
@@ -79,9 +78,6 @@ const skillsSectionData = {
         postgreSql({ level: 2 }),
         mysql({ level: 1 }),
         sqlite({ level: 3 }),
-        markdown({ level: 3 }),
-        pnpm({ level: 2 }),
-        gnubash({ level: 2 }),
         wordpress({
           level: 4,
           description:
