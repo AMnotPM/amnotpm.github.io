@@ -9,14 +9,9 @@ import PortfolioSection from '@/web/sections/portfolio/portfolio-section.web.ast
 import EducationSection from '@/web/sections/education/education-section.web.astro';
 import TestimonialsSection from '@/web/sections/testimonials/testimonials-section.web.astro';
 import FavoritesSection from '@/web/sections/favorites/favorites-section.web.astro';
-import cv, {hideSection} from '@/data';
+import cv from '@/data';
 
 const { config, sections } = cv();
-
-cv(
-hideSection('TestimonialsSection'),
-hideSection('FavoritesSection')
-);
 
 ---
 
@@ -28,8 +23,8 @@ hideSection('FavoritesSection')
     <ExperienceSection {...sections.experience} />
     <PortfolioSection {...sections.portfolio} />
     <EducationSection {...sections.education} />
-    <TestimonialsSection {...sections.testimonials} />
-    <FavoritesSection {...sections.favorites} />
+<!--     <TestimonialsSection {...sections.testimonials} />
+    <FavoritesSection {...sections.favorites} /> -->
   </main>
   <Sidebar sections={sections} className="sticky top-8 mt-20" />
   <script src="../web/scripts/initialize-tooltips.ts"></script>
