@@ -165,7 +165,7 @@ export const vue = createSkillFactory({
   url: 'https://vuejs.org/',
 });
 
-/// mine
+// mine
 
 export const csharp = createSkillFactory({
   name: 'C Sharp (C#)',
@@ -209,6 +209,13 @@ export const html = createSkillFactory({
   url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
 });
 
+export const angular = createSkillFactory({
+  name: 'Angular',
+  icon: 'simple-icons:angular',
+  iconColor: '#E23237',
+  url: 'https://angular.io/',
+});
+
 export const bootstrap = createSkillFactory({
   name: 'Bootstrap',
   icon: 'simple-icons:bootstrap',
@@ -229,13 +236,6 @@ export const mysql = createSkillFactory({
   iconColor: '#00688F',
   url: 'https://www.mysql.com/',
 });
-
-/* export const postgresql = createSkillFactory({
-  name: 'PostgreSQL',
-  icon: 'simple-icons:postgresql',
-  iconColor: '#326690',
-  url: 'https://www.postgresql.org/',
-}); */
 
 export const sqlite = createSkillFactory({
   name: 'SQLite',

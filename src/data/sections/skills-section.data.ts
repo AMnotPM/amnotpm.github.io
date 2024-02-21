@@ -2,22 +2,33 @@ import type { SkillsSection } from '@/types/sections/skills-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import {
   apolloGraphql,
-  astro,
-  cypress,
   eslint,
   firebase,
   mongoDb,
-  nestJs,
+  supabase,
+  typescript,
+  angular,
+  vue,
+  astro,
+  csharp,
+  dotnet,
+  blazor,
+  github,
+  html,
+  bootstrap,
+  sqlServer,
+  mysql,
+  sqlite,
+  gnubash,
+  markdown,
+  wordpress,
+  wix,
+  postman,
+  javascript,
   pnpm,
   postgreSql,
-  prettier,
   react,
-  sass,
-  supabase,
   tailwindCss,
-  typescript,
-  csharp,
-  javascript
 } from '../helpers/skills';
 
 const skillsSectionData = {
@@ -34,49 +45,64 @@ const skillsSectionData = {
         csharp({
           level: 4,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
-        }),        
-        react({
+            'Desc.',
+        }),
+        dotnet({ level: 3 }),        
+        blazor({
           level: 2,
           description:
-            'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
+            'Desc.',
         }),
-        javascript({
-          level: 3,
-          description: 'Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.',
+        astro({
+          level: 2,
+          description: 'Desc.',
         }),
-        sass({
+        html({
           level: 4,
-          description: 'Nulla interdum pellentesque ultricies. Ut id eros commodo, ultrices ligula eu, elementum ante.',
+          description: 'Desc.',
         }),
-        chakraUi({ level: 5 }),
-        tailwindCss({ level: 3 }),
-        prettier({ level: 5 }),
-        eslint({
-          level: 4,
-          description:
-            'Nulla tempor turpis at vehicula pharetra. Vestibulum tellus tortor, commodo et suscipit id, lobortis id nunc.',
-        }),
-        nestJs({
+        javascript({ level: 3 }),
+        react({ level: 2 }),
+        tailwindCss({ level: 2 }),
+        bootstrap({ level: 5 }),
+        github({
           level: 3,
           description:
-            'Praesent feugiat ultricies iaculis. In posuere vehicula odio, sed consequat velit porta viverra.',
+            'Desc.',
+        }),
+        postman({ level: 2 }),
+        sqlServer({
+          level: 2,
+          description:
+            'Desc.',
         }),
         postgreSql({ level: 2 }),
-        mongoDb({ level: 1 }),
-        firebase({ level: 1 }),
+        mysql({ level: 1 }),
+        sqlite({ level: 3 }),
+        markdown({ level: 3 }),
         pnpm({ level: 2 }),
+        gnubash({ level: 2 }),
+        wordpress({
+          level: 4,
+          description:
+            'Desc.',
+        }),
+        wix({
+          level: 4,
+          description:
+            'Desc.',
+        }),
       ],
     },
     {
       title: 'I want to learn',
-      skills: [apolloGraphql(), typescript(), supabase(), cypress()],
+      skills: [apolloGraphql(), typescript(), supabase(), firebase(), mongoDb(), eslint(), vue(), angular()],
     },
     {
       title: 'I speak',
       skills: [
-        { icon: 'circle-flags:us', name: 'English - C1' },
         { icon: 'circle-flags:es-variant', name: 'Spanish - native' },
+        { icon: 'circle-flags:us', name: 'English - C1' }
       ],
     },
   ],
