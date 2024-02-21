@@ -35,7 +35,7 @@ const experienceSectionData = {
     {
       role: 'Backend developer (Working student)',
       company: 'Freelancer',
-      // image: import('@/assets/logos/google-logo.jpg'),
+      image: import('@/assets/logos/NET-Core.png'),
       dates: [new Date('2023-01'), null],
       description: `
         - In January did some first steps as developer using some proper HTML, CSS and JavaScript. I've developed some smaller applications.        
@@ -51,7 +51,7 @@ const experienceSectionData = {
     {
       role: 'Wix developer',
       company: 'Albote',
-      image: import('@/assets/logos/facebook-logo.png'),
+      // image: import('@/assets/logos/facebook-logo.png'),
       dates: [new Date('2023-01'), new Date('2024-02')],
       description: `
         - Describe.
@@ -65,7 +65,7 @@ const experienceSectionData = {
     {
       role: 'Wordpress developer',
       company: 'Freelancer',
-      image: import('@/assets/logos/gitlab-logo.png'),
+      // image: import('@/assets/logos/gitlab-logo.png'),
       dates: [new Date('2018-09'), new Date('2022-10')],
       description: `
         Los buenos inicios en WP.
