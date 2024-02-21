@@ -35,7 +35,7 @@ const experienceSectionData = {
     {
       role: 'Backend developer (Working student)',
       company: 'Freelancer',
-      image: import('@/assets/logos/NET-Core.png'),
+      image: import('@/assets/logos/NET-Core2.jpg'),
       dates: [new Date('2023-01'), null],
       description: `
         - In January did some first steps as developer using some proper HTML, CSS and JavaScript. I've developed some smaller applications.        
