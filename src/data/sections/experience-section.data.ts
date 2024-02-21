@@ -2,17 +2,26 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
+  astro,
+  csharp,
+  dotnet,
+  blazor,
+  github,
+  html,
+  bootstrap,
+  sqlServer,
+  mysql,
+  sqlite,
+  gnubash,
+  markdown,
+  wordpress,
+  wix,
+  postman,
+  javascript,
   pnpm,
+  postgreSql,
   react,
-  reactQuery,
   tailwindCss,
-  typescript,
-  vue,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,57 +33,46 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Backend developer (Working student)',
+      company: 'Freelancer',
+      // image: import('@/assets/logos/google-logo.jpg'),
+      dates: [new Date('2023-01'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - In January did some first steps as developer using some proper HTML, CSS and JavaScript. I've developed some smaller applications.        
+        - Around May I've extended my knowledge in backend development by developing single page applications with .NET MVC and React.
+        - Now I'm developing web apps and services with ASP.NET Core, minimal and web APIs, Blazor and Razor Pages, integrating a database with Entity Framework Core and SQL server.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [csharp(), dotnet(), blazor(), github(), sqlServer()],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
+      role: 'Wix developer',
+      company: 'Albote',
       image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      dates: [new Date('2023-01'), new Date('2024-02')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - Describe.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [wix(), bootstrap(), javascript()],
       },
       links: [website({ url: '#' }), instagram({ url: '#' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
+      role: 'Wordpress developer',
+      company: 'Freelancer',
       image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      dates: [new Date('2018-09'), new Date('2022-10')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        Los buenos inicios en WP.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [wordpress(), html(), javascript()],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },

@@ -33,7 +33,7 @@ const mainSectionData = {
     url: '/cv.pdf',
     downloadedFileName: 'CV-Miguel_Gutierrez.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [github({ url: 'https://www.github.com/amnotpm/' }), linkedin({ url: 'https://www.linkedin.com/in/amnotpm' }), twitter({ url: 'https://twitter.com/MiguelLafaurie' })],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;
