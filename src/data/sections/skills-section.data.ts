@@ -3,7 +3,6 @@ import type { ReadonlyDeep } from 'type-fest';
 import {
   apolloGraphql,
   astro,
-  chakraUi,
   cypress,
   eslint,
   firebase,
@@ -33,7 +32,7 @@ const skillsSectionData = {
       title: 'I already know',
       skills: [
         csharp({
-          level: 5,
+          level: 4,
           description:
             'Proin ut erat sed massa tempus suscipit. Mauris efficitur nunc sem, nec scelerisque ligula bibendum ut.',
         }),        

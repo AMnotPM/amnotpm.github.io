@@ -174,6 +174,20 @@ export const csharp = createSkillFactory({
   url: 'https://docs.microsoft.com/en-us/dotnet/csharp/index',
 });
 
+export const dotnet = createSkillFactory({
+  name: '.NET Core',
+  icon: 'simple-icons:dotnet',
+  iconColor: '#621EE5',
+  url: 'https://dotnet.microsoft.com/',
+});
+
+export const blazor = createSkillFactory({
+  name: 'Blazor',
+  icon: 'simple-icons:blazor',
+  iconColor: '#512BD4',
+  url: 'https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor',
+});
+
 export const javascript = createSkillFactory({
   name: 'JavaScript',
   icon: 'simple-icons:javascript',
@@ -181,5 +195,93 @@ export const javascript = createSkillFactory({
   url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
 });
 
+export const github = createSkillFactory({
+  name: 'Github',
+  icon: 'simple-icons:github',
+  iconColor: '#161614',
+  url: 'https://github.com/',
+});
 
+export const html = createSkillFactory({
+  name: 'Html',
+  icon: 'simple-icons:html',
+  iconColor: '#E34E26',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+});
 
+export const bootstrap = createSkillFactory({
+  name: 'Bootstrap',
+  icon: 'simple-icons:bootstrap',
+  iconColor: '#7952B3',
+  url: 'https://getbootstrap.com/',
+});
+
+export const sqlServer = createSkillFactory({
+  name: 'SqlServer',
+  icon: 'simple-icons:microsoftsqlserver',
+  iconColor: '#A91D22',
+  url: 'https://www.microsoft.com/',
+});
+
+export const mysql = createSkillFactory({
+  name: 'MySQL',
+  icon: 'simple-icons:mysql',
+  iconColor: '#00688F',
+  url: 'https://www.mysql.com/',
+});
+
+/* export const postgresql = createSkillFactory({
+  name: 'PostgreSQL',
+  icon: 'simple-icons:postgresql',
+  iconColor: '#326690',
+  url: 'https://www.postgresql.org/',
+}); */
+
+export const sqlite = createSkillFactory({
+  name: 'SQLite',
+  icon: 'simple-icons:sqlite',
+  iconColor: '#003B57',
+  url: 'https://www.sqlite.org/',
+});
+
+export const gnubash = createSkillFactory({
+  name: 'Bash',
+  icon: 'simple-icons:gnubash',
+  iconColor: '#1B1B1F',
+  url: 'https://www.gnu.org/software/bash',
+});
+
+export const markdown = createSkillFactory({
+  name: 'Markdown',
+  icon: 'simple-icons:markdown',
+  iconColor: '#989898',
+  url: 'https://daringfireball.net/projects/markdown',
+});
+
+export const wordpress = createSkillFactory({
+  name: 'Wordpress',
+  icon: 'simple-icons:wordpress',
+  iconColor: '#00749A',
+  url: 'https://wordpress.org/',
+});
+
+export const wix = createSkillFactory({
+  name: 'Wix',
+  icon: 'simple-icons:wix',
+  iconColor: '#000000',
+  url: 'https://wix.com/',
+});
+
+export const postman = createSkillFactory({
+  name: 'Postman',
+  icon: 'simple-icons:postman',
+  iconColor: '#FFA841',
+  url: 'https://www.postman.com/',
+});
+
+export const insomnia = createSkillFactory({
+  name: 'Insomnia',
+  icon: 'simple-icons:insomnia',
+  iconColor: '#800080',
+  url: 'https://insomnia.rest/',
+});
