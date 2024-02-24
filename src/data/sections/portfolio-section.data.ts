@@ -71,7 +71,6 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Gestión Del Patrimonio', value: 'https://egdp.ohc.cu/', url: 'https://egdp.ohc.cu/' },
-        // { label: 'Repository', value: 'https://github.com/mark-freeman/software-chasers', url: '#' },
       ],
       description:
         'Contribuimos de manera sostenible en la obtención de recursos financieros, mediante  gestiones de  comercio, arrendamiento, administración de espacios, gastronomía y recreación dentro del Centro Histórico de La Habana, brindando un servicio de calidad, profesionalidad, singularidad y seguridad, centrado en los valores históricos y patrimoniales de una ciudad viva.',
