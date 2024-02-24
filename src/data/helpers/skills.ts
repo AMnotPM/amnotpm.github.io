@@ -204,7 +204,7 @@ export const github = createSkillFactory({
 
 export const html = createSkillFactory({
   name: 'Html',
-  icon: 'simple-icons:html',
+  icon: 'simple-icons:html5',
   iconColor: '#E34E26',
   url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
 });

@@ -43,11 +43,11 @@ const skillsSectionData = {
       title: 'I already know',
       skills: [
         csharp({
-          level: 4,
+          level: 3,
           description:
             'Desc.',
         }),
-        dotnet({ level: 3 }),        
+        dotnet({ level: 2 }),        
         blazor({
           level: 2,
           description:
@@ -64,7 +64,7 @@ const skillsSectionData = {
         javascript({ level: 3 }),
         react({ level: 2 }),
         tailwindCss({ level: 2 }),
-        bootstrap({ level: 5 }),
+        bootstrap({ level: 2 }),
         github({
           level: 3,
           description:
