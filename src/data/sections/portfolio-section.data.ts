@@ -32,33 +32,33 @@ const portfolioSectionData = {
     },
   },
   projects: [
-/*     {
-      name: 'Golden Bulls',
-      image: import('@/assets/portfolio/project-1.jpeg'),
-      dates: [new Date('2020-03'), null],
-      details: [
-        { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
-      ],
-      screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
-      ],
-      description:
-        'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [nextJs(), sass(), pnpm(), eslint(), prettier()],
-      },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
-    }, */
+    //  {
+    //   name: 'Golden Bulls',
+    //   image: import('@/assets/portfolio/project-1.jpeg'),
+    //   dates: [new Date('2020-03'), null],
+    //   details: [
+    //     { label: 'Team size', value: '1 person' },
+    //     { label: 'My role', value: ['Front-end Developer', 'Designer'] },
+    //     { label: 'Company', value: 'None' },
+    //     { label: 'Category', value: ['Web app', 'Open source'] },
+    //   ],
+    //   pdfDetails: [
+    //     { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
+    //     { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
+    //   ],
+    //   screenshots: [
+    //     { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
+    //     { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
+    //     { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
+    //   ],
+    //   description:
+    //     'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
+    //   tagsList: {
+    //     title: 'Technologies',
+    //     tags: [nextJs(), sass(), pnpm(), eslint(), prettier()],
+    //   },
+    //   links: [mockups({ url: '#' }), demo({ url: '#' })],
+    // },
     {
       name: 'Gestión Del Patrimonio',
       image: import('@/assets/portfolio/project-egdp.jpeg'),
