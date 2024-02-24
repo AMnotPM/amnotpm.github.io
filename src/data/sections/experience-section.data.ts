@@ -12,11 +12,8 @@ import {
   sqlServer,
   mysql,
   sqlite,
-  gnubash,
-  markdown,
   wordpress,
   wix,
-  postman,
   javascript,
   pnpm,
   postgreSql,
@@ -44,7 +41,7 @@ const experienceSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), dotnet(), blazor(), github(), sqlServer()],
+        tags: [csharp(), dotnet(), blazor(), github(), sqlServer(), astro(), tailwindCss(), react()],
       },
       links: [facebook({ url: '#' }), linkedin({ url: '#' })],
     },
@@ -54,7 +51,9 @@ const experienceSectionData = {
       // image: import('@/assets/logos/facebook-logo.png'),
       dates: [new Date('2023-01'), new Date('2024-02')],
       description: `
-        - Describe.
+      Looking for fast deployment solutions and focused on e-commerce, I decided to work with platforms like WiX, 
+      finding in this one the necessary to satisfy several customers looking for a good platform to promote and sell their products and services. 
+      I have been working with WiX for a year now, I have built 4 sites on the platform and I maintain two of them. 
       `,
       tagsList: {
         title: 'Technologies',
@@ -68,11 +67,13 @@ const experienceSectionData = {
       // image: import('@/assets/logos/gitlab-logo.png'),
       dates: [new Date('2018-09'), new Date('2022-10')],
       description: `
-        Los buenos inicios en WP.
+      I started working with Wordpress as a hobby, we had a metropolitan network in the city and I was dedicated to set up my servers and publish articles for the local intranet. 
+      Over the years I worked in a magazine where I got involved in both roles of editor/administrator. 
+      In the last official jobs I had to develop from scratch several institutional sites for the entities I worked for. 
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [wordpress(), html(), javascript()],
+        tags: [wordpress(), html(), javascript(), sqlite(), mysql()],
       },
       links: [twitter({ url: '#' }), github({ url: '#' })],
     },
