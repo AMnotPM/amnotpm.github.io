@@ -34,8 +34,8 @@ const portfolioSectionData = {
   projects: [
     {
       name: 'Gestión Del Patrimonio',
-      image: import('@/assets/portfolio/project-egdp.jpeg'),
-      dates: [new Date('2018-01'), new Date('2020-12')],
+      image: import('@/assets/portfolio/project-egdp.jpg'),
+      dates: [new Date('2021-07'), new Date('2021-11')],
       details: [
         { label: 'Team size', value: '3 people' },
         { label: 'My role', value: ['Wordpress Developer', 'SysAdmin'] },
