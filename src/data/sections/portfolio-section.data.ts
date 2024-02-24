@@ -32,6 +32,33 @@ const portfolioSectionData = {
     },
   },
   projects: [
+    {
+      name: 'Gestión Del Patrimonio',
+      image: import('@/assets/portfolio/project-egdp.jpeg'),
+      dates: [new Date('2018-01'), new Date('2020-12')],
+      details: [
+        { label: 'Team size', value: '3 people' },
+        { label: 'My role', value: ['Wordpress Developer', 'SysAdmin'] },
+        { label: 'Company', value: 'EGDP' },
+        { label: 'Category', value: ['Web page'] },
+      ],
+      pdfDetails: [
+        { label: 'Gestión Del Patrimonio', value: 'https://egdp.ohc.cu/', url: 'https://egdp.ohc.cu/' },
+      ],
+      description:
+        'Contribuimos de manera sostenible en la obtención de recursos financieros, mediante  gestiones de  comercio, arrendamiento, administración de espacios, gastronomía y recreación dentro del Centro Histórico de La Habana, brindando un servicio de calidad, profesionalidad, singularidad y seguridad, centrado en los valores históricos y patrimoniales de una ciudad viva.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [wordpress(), javascript(), mysql()],
+      },
+      links: [website({ url: 'https://egdp.ohc.cu/' })],
+    },
+  ],
+} as const satisfies ReadonlyDeep<PortfolioSection>;
+
+export default portfolioSectionData;
+
+
     //  {
     //   name: 'Golden Bulls',
     //   image: import('@/assets/portfolio/project-1.jpeg'),
@@ -59,28 +86,3 @@ const portfolioSectionData = {
     //   },
     //   links: [mockups({ url: '#' }), demo({ url: '#' })],
     // },
-    {
-      name: 'Gestión Del Patrimonio',
-      image: import('@/assets/portfolio/project-egdp.jpeg'),
-      dates: [new Date('2018-01'), new Date('2020-12')],
-      details: [
-        { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Wordpress Developer', 'SysAdmin'] },
-        { label: 'Company', value: 'EGDP' },
-        { label: 'Category', value: ['Web page'] },
-      ],
-      pdfDetails: [
-        { label: 'Gestión Del Patrimonio', value: 'https://egdp.ohc.cu/', url: 'https://egdp.ohc.cu/' },
-      ],
-      description:
-        'Contribuimos de manera sostenible en la obtención de recursos financieros, mediante  gestiones de  comercio, arrendamiento, administración de espacios, gastronomía y recreación dentro del Centro Histórico de La Habana, brindando un servicio de calidad, profesionalidad, singularidad y seguridad, centrado en los valores históricos y patrimoniales de una ciudad viva.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [wordpress(), javascript(), mysql()],
-      },
-      links: [website({ url: 'https://egdp.ohc.cu/' })],
-    },
-  ],
-} as const satisfies ReadonlyDeep<PortfolioSection>;
-
-export default portfolioSectionData;
