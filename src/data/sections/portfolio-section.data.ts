@@ -71,7 +71,7 @@ const portfolioSectionData = {
         'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
       tagsList: {
         title: 'Technologies',
-        tags: [csharp(), dotnet(), (), sqlServer(), bootstrap()],
+        tags: [csharp(), dotnet(), sqlServer(), bootstrap()],
       },
       links: [mockups({ url: '#' }), demo({ url: '#' })],
     },
