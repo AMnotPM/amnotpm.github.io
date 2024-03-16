@@ -46,12 +46,34 @@ const portfolioSectionData = {
         { label: 'Gestión Del Patrimonio', value: 'https://egdp.ohc.cu/', url: 'https://egdp.ohc.cu/' },
       ],
       description:
-        'Contribuimos de manera sostenible en la obtención de recursos financieros, mediante  gestiones de  comercio, arrendamiento, administración de espacios, gastronomía y recreación dentro del Centro Histórico de La Habana, brindando un servicio de calidad, profesionalidad, singularidad y seguridad, centrado en los valores históricos y patrimoniales de una ciudad viva.',
+        'We contribute in a sustainable way to obtaining financial resources, through trade, leasing, space management, gastronomy and recreation within the Historic Center of Havana, providing a service of quality, professionalism, uniqueness and safety, focused on the historical and heritage values of a living city.',
       tagsList: {
         title: 'Technologies',
         tags: [wordpress(), javascript(), mysql()],
       },
       links: [website({ url: 'https://egdp.ohc.cu/' })],
+    },
+      {
+      name: 'Baldly',
+      image: import('@/assets/portfolio/project-Baldly.jpeg'),
+      dates: [new Date('2024-02'), null],
+      details: [
+        { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: ['Front-end Developer', 'Back-end Developer'] },
+        { label: 'Company', value: 'None' },
+        { label: 'Category', value: ['Web app', 'Open source'] },
+      ],
+      pdfDetails: [
+        { label: 'Demo', value: 'https://baldly.somee.com', url: 'https://baldly.somee.com' },
+        { label: 'Repository', value: 'https://github.com/', url: '#' },
+      ],
+      description:
+        'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
+      tagsList: {
+        title: 'Technologies',
+        tags: [csharp(), dotnet(), (), sqlServer(), bootstrap()],
+      },
+      links: [mockups({ url: '#' }), demo({ url: '#' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
