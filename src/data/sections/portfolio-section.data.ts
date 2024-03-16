@@ -55,7 +55,7 @@ const portfolioSectionData = {
     },
       {
       name: 'Baldly',
-      image: import('@/assets/portfolio/project-Baldly.jpeg'),
+      image: import('@/assets/portfolio/project-Baldly.jpg'),
       dates: [new Date('2024-02'), null],
       details: [
         { label: 'Team size', value: '1 person' },
