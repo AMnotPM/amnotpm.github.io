@@ -54,6 +54,8 @@ const main = async () => {
   await browser.close();
 
   child.kill();
+
+  process.exit(0); // Exit with code 0 (success)
 };
 
 main();
