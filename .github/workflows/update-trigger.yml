@@ -1,4 +1,4 @@
-name: Ejecutar comando después de actualización
+name: Ejecutar comando después de actualización npm run generate-pdf
 
 on:
   push:
@@ -27,5 +27,5 @@ jobs:
         npm install
         npm audit fix --force
         npm install -g ts-node
-        npm run generate-pdf
+        
 
