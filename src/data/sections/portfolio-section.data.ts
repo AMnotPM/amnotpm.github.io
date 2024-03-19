@@ -65,10 +65,10 @@ const portfolioSectionData = {
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://baldly.somee.com', url: 'https://baldly.somee.com' },
-        { label: 'Repository', value: 'https://github.com/', url: '#' },
+        { label: 'Repository', value: 'https://github.com/AMnotPM/Baldly', url: 'https://github.com/AMnotPM/Baldly' },
       ],
       description:
-        'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
+        'Baldly is an Url Shortener made with simplicity in mind.',
       tagsList: {
         title: 'Technologies',
         tags: [csharp(), dotnet(), sqlServer(), bootstrap()],
