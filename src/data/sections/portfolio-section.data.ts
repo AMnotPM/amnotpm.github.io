@@ -73,7 +73,7 @@ const portfolioSectionData = {
         title: 'Technologies',
         tags: [csharp(), dotnet(), sqlServer(), bootstrap()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
+      links: [github({ url: 'https://github.com/AMnotPM/Baldly' }), demo({ url: 'https://baldly.somee.com' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
