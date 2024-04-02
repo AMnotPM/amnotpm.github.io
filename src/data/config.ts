@@ -1,24 +1,23 @@
-import type { Config } from '@/types/data';
-import { enUS } from 'date-fns/locale';
-import type { ReadonlyDeep } from 'type-fest';
+import type { Config } from "@/types/data";
+import { enUS } from "date-fns/locale";
+import type { ReadonlyDeep } from "type-fest";
 
 const config = {
   i18n: {
     locale: enUS,
-    dateFormat: 'MMMM yyyy',
+    dateFormat: "MMMM yyyy",
     translations: {
-      now: 'now',
+      now: "now",
     },
   },
   meta: {
-    title: 'Miguel Gutierrez - Junior Developer in ASP.NET Core',
-    description:
-      'A baldly backend developer',
-    faviconPath: '/src/assets/my-image.jpeg',
+    title: "Miguel Gutierrez - Junior Developer in ASP.NET Core",
+    description: "A baldly backend developer",
+    faviconPath: "/src/assets/formal.jpg",
   },
   pdf: {
     footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+      "I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.",
   },
 } as const satisfies ReadonlyDeep<Config>;
 
